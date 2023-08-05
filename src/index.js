@@ -1,6 +1,6 @@
 module.exports = function reverse (n) {
-    splited = n.split("");
-    reversed = splited.reverse();
-    joined = reversed.join("");
+   let splited = n.split("");
+   let reversed = splited.reverse();
+   let joined = reversed.join("");
     return joined;
 }
